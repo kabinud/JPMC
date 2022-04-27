@@ -1,0 +1,21 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.0",
+    "body-parser": "^1.19.2",
+    "express": "^4.17.3",
+    "express-basic-auth": "^1.2.1",
+    "node-url-shortener": "^2.0.1",
+    "request": "^2.88.2",
+    "tinyurl": "^1.1.7",
+    "turl": "^1.1.2"
+  }
+}
