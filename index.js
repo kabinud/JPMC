@@ -140,25 +140,10 @@ app.get('/complete', async (req, res) => {
     const accID = req.query.accountId;
     const wfID = req.query.workflowExecutionId;
 
-        delWF(accID, wfID)
-
-    // const timeoutObj = setTimeout(() => {
-        // axios.get(`https://retrieval.${platform}/api/v1/accounts/${accID}/workflow-executions/${wfID}`, {
-        //     headers: {
-        //         'Authorization': `Basic ${token}`
-        //     }
-        // }).then(
-        //     console.log(accID + ' - ' + wfID)
-        //     //delWF(accID, wfID)
-        // );
-    //}, 120);
+    //    delWF(accID, wfID)
 
     res.sendFile(__dirname + '/views/success.html')
    
-});
-
-app.get('/test', (req, res) => {
-    res.sendFile(__dirname + '/views/success.html');
 });
 
 app.post('/', urlencodedParser, async(req, ress) => {
