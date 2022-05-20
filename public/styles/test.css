@@ -1,0 +1,26 @@
+ /******/
+ input[type=checkbox]:focus
+ {
+     outline: 2px solid rgba(0, 0, 0, 0.2);
+ }
+ 
+ input[type=checkbox]
+ {
+     background-color: #FFF;
+     border: 1px solid #CCC;
+     border-radius: 2px;
+     appearance: none;
+     -webkit-appearance: none;
+     -moz-appearance: none;
+     width: 17px;
+     height: 17px;
+     cursor: pointer;
+     position: relative;
+     top: 5px;
+ }
+ 
+ input[type=checkbox]:checked
+ {
+     background-color: #ffffff;
+     background: #000000 url("data:image/gif;base64,R0lGODlhCwAKAIABAP////3cnSH5BAEKAAEALAAAAAALAAoAAAIUjH+AC73WHIsw0UCjglraO20PNhYAOw==") 3px 3px no-repeat;
+ }
